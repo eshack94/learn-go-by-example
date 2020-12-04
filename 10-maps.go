@@ -1,7 +1,7 @@
 // * @Author: eshackelford
 // * @Date:   2020-11-22 22:51:13
-// * @Last Modified by:   eshackelford
-// * @Last Modified time: 2020-11-28 00:17:05
+// * @Last Modified by:   Elijah Shackelford
+// * @Last Modified time: 2020-12-04 17:15:36
 
 //  See also:
 // - https://gobyexample.com/maps
@@ -41,7 +41,7 @@ func main() {
 	fmt.Println("map:", m)
 
 	// The optional second return value when getting a value from a map indicates
-	// if the ykey was present in the map. This can be used to disambiguate between
+	// if the key was present in the map. This can be used to disambiguate between
 	// missing keys and keys with zero values like 0 or "". Here we didn't need the
 	// value itself, so we ignored it with the blank identifier _.
 
